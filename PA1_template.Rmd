@@ -1,7 +1,4 @@
----
-title: "Reproducable Research Class Assignment 1"
-output: html_document
----
+#First Assignment Reproducable Research Course
 
 This is my first attempt at using R Markdown and knitr.  It is part of the first class assignment for the Coursera Course on Reproducable Research, course #5 in the Johns Hopkins series on using R in Data Science. 
 
@@ -13,12 +10,13 @@ The call to Sys.time below will indicate what time the file was read into R, but
 
 
 ```{r}
+
 #Load necessary libraries
 library(dplyr)
 library(knitr)
 
 #Set the working directory correctly
-setwd("~/Desktop/RProjects/Coursera/ReproducableResearch/RepData_PeerAssessment1")
+setwd("~/Desktop/RProjects/Coursera/ReproducableResearch/Assignment1/ReproducableDataAssignment1")
 list.files()
 #Note the date and time that the data has been read
 Sys.time()
